@@ -5,6 +5,17 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'GustavoRotela';
+  edadUno:any;
+  edadDos:any;
+  promedio:any;
+
+  constructor(){}
+
+  Promedio()
+  {
+    this.promedio = (this.edadUno + this.edadDos) / 2;
+  }
 }
