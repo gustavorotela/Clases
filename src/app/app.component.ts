@@ -23,5 +23,6 @@ export class AppComponent {
   {
     this.edadUno = '';
     this.edadDos = '';
+    this.promedio = '';
   }
 }
