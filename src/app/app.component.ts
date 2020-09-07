@@ -18,4 +18,10 @@ export class AppComponent {
   {
     this.promedio = (this.edadUno + this.edadDos) / 2;
   }
+
+  Limpiar()
+  {
+    this.edadUno = '';
+    this.edadDos = '';
+  }
 }
